@@ -45,7 +45,7 @@ function Home() {
     }, [])
 
     if(loading){
-        return <div>Loading...</div>
+        return <div>Your content is Loading.</div>
     }
 
     return (
